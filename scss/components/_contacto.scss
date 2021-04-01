@@ -1,0 +1,39 @@
+.form-row input [type="text"] {
+    background-color: #2B4162;
+    border-color: cornflowerblue;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+
+.form-row textarea {
+    resize: none;
+    min-height: 200px;
+    width: 100%;
+}
+
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #9FB5D5 ;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: #2B4162;
+}
+
+.form-row button:active {
+    background-color: blue;
+}
+
+.googleMaps {
+    display: flex;
+    justify-content: center;
+}
