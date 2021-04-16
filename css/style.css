@@ -1,60 +1,72 @@
 @charset "UTF-8";
 .formatoFooter {
   color: white;
-  font-family: 'EB_Garamond';
+  font-family: "EB_Garamond";
   text-align: center;
   /* display: inline; */
   width: 100%;
-  height: 20px; }
+  height: 20px;
+}
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /*Regla font face*/
 @font-face {
-  font-family: 'EB_Garamond';
+  font-family: "EB_Garamond";
   /*Familia de mi fuente - Nombre de referencia*/
   src: url(fonts/EB_Garamond/EBGaramond-Regular.ttf) format "woff";
-  /*La ruta donde está la carpeta de mi fuente y el formato*/ }
+  /*La ruta donde está la carpeta de mi fuente y el formato*/
+}
 .formatoRedes {
-  font-family: 'EB_Garamond';
+  font-family: "EB_Garamond";
   width: 30px;
-  height: 30px; }
+  height: 30px;
+}
 
 #galeriaFotos .col-lg-4 {
-  padding: 25px; }
+  padding: 25px;
+}
 
 #galeriaFotos img {
   width: 100%;
-  height: 300px; }
+  height: 300px;
+}
 
 #galeriaFotos img:hover {
-  border: 5px solid #f7f7f7; }
+  border: 5px solid #f7f7f7;
+}
 
 #galeriaVideos .col-lg-4 {
-  padding: 25px; }
+  padding: 25px;
+}
 
 #galeriaVideos iframe {
   width: 100%;
-  height: 300px; }
+  height: 300px;
+}
 
 #galeriaVideos iframe:hover {
-  border: 5px solid #f7f7f7; }
+  border: 5px solid #f7f7f7;
+}
 
-.form-row input [type="text"] {
+.form-row input [type=text] {
   background-color: #2B4162;
   border-color: cornflowerblue;
   border-radius: 3px;
   width: 100%;
   padding: 7px;
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 .form-row textarea {
   resize: none;
   min-height: 200px;
-  width: 100%; }
+  width: 100%;
+}
 
 .form-row button {
   font-size: 16px;
@@ -63,21 +75,25 @@
   border: none;
   border-radius: 3px;
   padding: 10px 40px;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .form-row button:hover {
-  background-color: #2B4162; }
+  background-color: #2B4162;
+}
 
 .form-row button:active {
-  background-color: blue; }
+  background-color: blue;
+}
 
 .googleMaps {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 h1 {
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   /*font-family: 'Playfair Display', serif;*/
   font-size: 30px;
   font-weight: 800;
@@ -101,11 +117,12 @@ h1 {
   border-bottom: 1px solid seagreen;
   /* background-image: url(images/logo.jpg);
   background-repeat:no-repeat;
-  background-position:left center; */ }
+  background-position:left center; */
+}
 
 h2 {
-  font-family: 'EB_Garamond';
-  font-family: 'Playfair Display', serif;
+  font-family: "EB_Garamond";
+  font-family: "Playfair Display", serif;
   font-size: 20px;
   font-weight: 800;
   font-style: italic;
@@ -124,13 +141,15 @@ h2 {
   text-transform: uppercase;
   /*Mayúsculas o minúsculas*/
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
 .formatoParrafo {
   text-align: center;
   background-color: #D2E5DC;
   padding-bottom: 5px;
-  margin-top: 60px; }
+  margin-top: 60px;
+}
 
 .divFundacion {
   font-size: 20px;
@@ -147,7 +166,8 @@ h2 {
   margin-right: 0px;
   margin-bottom: 30px;
   margin-left: 0px;
-  /* margin: 0 auto; */ }
+  /* margin: 0 auto; */
+}
 
 .divObjetivos {
   font-size: 20px;
@@ -164,7 +184,8 @@ h2 {
   margin-right: 0px;
   margin-bottom: 20px;
   margin-left: 0px;
-  /* margin: 0 auto; */ }
+  /* margin: 0 auto; */
+}
 
 .divQuienes {
   font-size: 20px;
@@ -181,7 +202,8 @@ h2 {
   margin-right: 0px;
   margin-bottom: 20px;
   margin-left: 0px;
-  /* margin: 0 auto; */ }
+  /* margin: 0 auto; */
+}
 
 .divAutoridades {
   font-size: 20px;
@@ -198,7 +220,8 @@ h2 {
   margin-right: 0px;
   margin-bottom: 20px;
   margin-left: 0px;
-  /* margin: 0 auto; */ }
+  /* margin: 0 auto; */
+}
 
 .divContactoCon {
   font-size: 20px;
@@ -215,7 +238,8 @@ h2 {
   margin-right: 0px;
   margin-bottom: 20px;
   margin-left: 0px;
-  /* margin: 0 auto; */ }
+  /* margin: 0 auto; */
+}
 
 .divParrafo {
   font-size: 20px;
@@ -232,9 +256,11 @@ h2 {
   margin-right: 0px;
   margin-bottom: 10px;
   margin-left: 0px;
-  /* margin: 0 auto; */ }
+  /* margin: 0 auto; */
+}
 
 .formatoFooter {
-  background-color: #9FB5D5; }
+  background-color: #9FB5D5;
+}
 
 /*# sourceMappingURL=style.css.map */
